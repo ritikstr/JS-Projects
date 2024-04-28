@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
 #calculator{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -32,4 +40,22 @@ button{
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(31, 93%, 53%);
+}
+.operator-btn:hover{
+    background-color: hsl(31, 93%, 63%);
+}
+.operator-btn:active{
+    background-color: hsl(31, 93%, 73%);
 }
